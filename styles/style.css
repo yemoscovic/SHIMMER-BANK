@@ -6,14 +6,16 @@
 
 nav {
     background-color: rgba(79, 164, 194, 1);
-    
 }
 
 
 ul {
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 10px 100px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 nav ul img {
@@ -23,14 +25,13 @@ nav ul img {
 nav ul li {
     list-style-type: none;
 }
-
+/* 
 nav ul li a svg {
     width: 26px;
     height: 30px;
-}
+} */
 
 nav ul li a {
-    
     width: 96px;
     height: 24px;
     font-family: 'Inter', sans-serif;
@@ -49,3 +50,18 @@ nav ul li a:hover {
     background-color: rgba(6, 33, 94, 1);
 }
 
+@media screen and (max-width:360px) {
+    /* Responsiveness */
+    ul {
+        display: inline-block;
+        /* flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center; */
+    }
+
+    nav ul img {
+        margin-right:0px;
+    }
+}
+
+@media screen and (max-width:768px)
