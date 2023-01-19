@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="./css/style.css" rel="stylesheet"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Shimmer Landing Page</title>
+</head>
+<body>
+<header class="">
+    <nav>
+        <div class="logo">
+            <img alt="logo" class="logo-img" src="./img/logo.png"/>
+        </div>
+        <div class="nav-link" id="menu">
+            <ul>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Investment</a></li>
+                <li><a href="#">About us</a></li>
+                <li>
+                    <a href="#"><img alt="" src="./icons/User.png"/></a>
+                </li>
+                <li>
+                    <a class="btn-secondary" href="#">Login</a>
+                </li>
+                <li>
+                    <a class="btn-primary" href="#">Sign up</a>
+                </li>
+            </ul>
+        </div>
+        <img alt="Shimmer Bank" id="mobile-menu-icon" src="./icons/menu-icon.svg">
+    </nav>
+    <div class="hero-sec container">
+        <div class="hero-text">
+            <h1>Banking that gives the best impression about money flow.</h1>
+            <p>
+                Explore the shining experience of digital and physical banking with
+                ease. Your trust is our utmost priority.
+            </p>
+            <button class="btn-secondary">Sign up</button>
+        </div>
+        <div class="hero-img"></div>
+    </div>
+</header>
+<!-- HEADER ENDS HERE -->
+
+<!-- SECTION 1 START -->
+<div id="sec1">
+    <div class="sec1-cover container">
+        <div class="sec1-grid">
+            <div class="grid1 grid">
+                <img alt="" src="./icons/lock-open.png"/>
+                <h2>Safety</h2>
+                <p>
+                    We believe that our customers’ valuables should be kept safe and
+                    we provide the best of this service.
+                </p>
+            </div>
+            <div class="grid2 grid">
+                <img alt="" src="./icons/wallet-with-card.png"/>
+                <h2>Quick Access</h2>
+                <p>
+                    We reduce the frustration that could accompany inability to access
+                    funds by making funds available online and in banks.
+                </p>
+            </div>
+            <div class="grid3 grid">
+                <img alt="" src="./icons/Building.png"/>
+                <h2>Corporate Banking</h2>
+                <p>
+                    You can create a corporate account with more than one account
+                    holder to create collaboration.
+                </p>
+            </div>
+            <div class="grid4 grid">
+                <img alt="" src="./icons/User.png"/>
+                <h2>Customer Service</h2>
+                <p>
+                    We put your feelings ahead of anything. Your interest is our
+                    utmost priority.
+                </p>
+            </div>
+        </div>
+        <div class="sec1-img"></div>
+    </div>
+</div>
+<!-- SECTION 1 ENDS HERE -->
+
+<!-- SECTION 2 START -->
+
+<div class="" id="sec2">
+    <div class="sec2-cover container">
+        <div class="sec2-img"></div>
+        <div class="sec2-text">
+            <h1>Physical wellness comes in hand with financial wellness.</h1>
+            <p>
+                The joy of being financially buoyant can’t be overemphasized. We
+                help you manage your resources and boost your strategy.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- SECTION 2 END HERE -->
+
+<!-- SECTION 3 START HERE -->
+<div class="" id="sec3">
+    <div class="container">
+        <div class="sec3-img">
+            <img alt="" class="sec3-img" src="./img/sec3-img.png"/>
+            <div class="sec3-btn">
+                <button class="btn-light">Get Started</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- SECTION 3 END'S HERE -->
+
+<!-- SECTION 4 START HERE -->
+<footer class="">
+    <div class="footer-cover container">
+        <div class="footer-logo ">
+            <div class="logo">
+
+                <img alt="logo" class="logo-img" src="./img/logo.png"/>
+
+            </div>
+            <p>We shine through the digital world into the future... </p>
+        </div>
+        <div class="footer-link ">
+            <div class="footer-link1">
+                <p class="footer-heading">Payment</p>
+                <ul>
+                    <li><a href="#">Online Banking</a></li>
+                    <li><a href="#">Mobile Banking</a></li>
+                    <li><a href="#">Cardmember Agreement</a></li>
+                </ul>
+            </div>
+            <div class="footer-link1">
+                <p class="footer-heading">Investment</p>
+                <ul>
+                    <li><a href="#">Corporate Investment</a></li>
+                    <li><a href="#">Online Banking</a></li>
+                    <li><a href="#">Mobile Banking</a></li>
+                </ul>
+            </div>
+            <div class="footer-link1">
+                <p class="footer-heading">Payment</p>
+                <ul>
+                    <li><a href="#">Corporate Investment</a></li>
+                    <li><a href="#">Online Banking</a></li>
+                    <li><a href="#">Mobile Banking</a></li>
+                    <li><a href="#">Cardmember Agreement</a></li>
+                </ul>
+            </div>
+            <div class="footer-link1">
+                <p class="footer-heading">Payment</p>
+                <ul>
+                    <li><a href="#">Corporate Investment</a></li>
+                    <li><a href="#">Online Banking</a></li>
+                    <li><a href="#">Mobile Banking</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+  const menu = document.querySelector ( '#menu' );
+  const menuIcon = document.querySelector ( '#mobile-menu-icon' );
+  menuIcon.addEventListener ( 'click', () => {
+    menu.classList.toggle ( 'active' );
+  } );
+</script>
+</body>
+</html>
