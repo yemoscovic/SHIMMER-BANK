@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100;500&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background: conic-gradient(
+    from -79.28deg at 50% 50%,
+    rgba(112, 142, 183, 0) 0deg,
+    #708eb7 124.17deg,
+    rgba(112, 142, 183, 0) 360deg
+  );
+}
+main {
+  max-width: 90%;
+  max-height: 90vh;
+}
+.container {
+  width: 450px;
+  height: 400px;
+  left: 28px;
+  top: 3px;
+  background: #f3f4f9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+.reg {
+  text-align: center;
+  padding: 20px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+h2 {
+  text-align: center;
+  padding: 50px;
+  font-family: "Roboto Serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #06215e;
+}
+button {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  width: 96px;
+  height: 39px;
+  background: #06a8ee;
+  border: 2px solid #010f33;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.regform {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 20px;
+  padding-top: 1px;
+}
+.regform input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-top: 20px;
+}
+
+
+@media(max-width: 768px){
+
+  .container{
+    display: block;
+  }
+}
